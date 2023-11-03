@@ -1,6 +1,6 @@
 # youdaonote-pull
 
-此脚本可将有道云的所有的笔记下载到本地。代码参考了 [youdaonote-pull](https://github.com/DeppWang/youdaonote-pull.git)，目前新建有道云笔记爬取下来的格式为JSON，以前的是xml格式，而[youdaonote-pull](https://github.com/DeppWang/youdaonote-pull.git) 目前不支持JSON格式的转换，因此此脚本添加json格式的转换。脚本转换了一些常用的格式，例如，标题、加粗、表格、图片、文件、列表等，有些格式和属性可能没有考虑到，笔记可能有些缺失，下载下来后，请检查一下。
+此脚本可将有道云的所有的笔记下载到本地。对[youdaonote-pull](https://github.com/chunxingque/youdaonote-pull)优化了一下，优化了json格式的问题（如换行太多，部分笔记丢失，没有缩进...）
 
 ## 功能
 
