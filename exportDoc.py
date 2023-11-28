@@ -5,6 +5,8 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
 
+# 下载chrome驱动，chrome 119版本以后的：https://googlechromelabs.github.io/chrome-for-testing/
+# 114版本以前的：http://chromedriver.storage.googleapis.com/index.html
 cService = webdriver.ChromeService(executable_path=r"D:\develop-source\chromedriver-win64\chromedriver.exe")
 # driver = webdriver.Chrome(service=cService)
 
